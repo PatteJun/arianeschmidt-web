@@ -70,6 +70,8 @@
     column-gap: 134px;
     row-gap: 68px;
     padding: 0 20px;
+    max-width: 1300px;
+    padding: 0 20px;
 
     @include media-breakpoint-down(xxl) {
       column-gap: 60px;

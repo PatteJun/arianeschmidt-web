@@ -8,16 +8,26 @@
   border-color: transparent;
   margin-bottom: 0px;
   padding: 0 20px;
-  justify-content: space-between;
   gap: 16px;
 
+  @include media-breakpoint-down(xl) {
+   gap: 60px;
+  }
 
+  @include media-breakpoint-down(sm) {
+    gap: 16px;
+   }
 
   &-image {
     width: 200px;
     height: 129px;
     position: relative;
     border-color: transparent;
+    margin-right: 245px;
+
+    @include media-breakpoint-down(xl) {
+      margin-right: 0;
+    }
 
 
   @include media-breakpoint-down(sm) {
@@ -29,10 +39,7 @@
   &-title {
     color: rgba(177, 79, 45, 1);
     height: auto;
-    flex-grow: 1;
     font-size: 64px;
-    align-self: auto;
-    font-style: Regular;
     text-align: left;
     font-family: Be Vietnam Pro;
     font-weight: 400;
@@ -42,13 +49,13 @@
     margin-bottom: 0;
     text-decoration: none;
 
-    &--italic {
-      font-style: italic;
-      font-weight: 100;
-    }
-
     @include media-breakpoint-down(lg) {
       font-size: 40px;
+
+      &--italic {
+        font-style: italic;
+        font-weight: 100;
+      }
     }
 
     @include media-breakpoint-down(sm) {
