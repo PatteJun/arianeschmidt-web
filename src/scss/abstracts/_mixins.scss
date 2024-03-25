@@ -1,0 +1,88 @@
+@use "sass:map";
+@use "sass:list";
+@import "_variables";
+
+@mixin media-breakpoint-down($breakpoint, $direction: "max") {
+  @media only screen and (#{$direction}-width: map.get($breakpoints, $breakpoint)) {
+    @content;
+  }
+}
+
+@mixin media-breakpoint-up($breakpoint, $direction: "min") {
+    @media only screen and (#{$direction}-width: map.get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  }
+
+@mixin h1 {
+    font-family: 'DM Serif Text', serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+@mixin h2 {
+    font-family: "DM Serif Text";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+@mixin h3 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+@mixin h4 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+@mixin p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%
+}
+
+@mixin p-xl {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+@mixin p-large {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%
+}
+
+@mixin p-small {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+@mixin p-xs {
+    @include p;
+    font-size: 12px;
+    line-height: 100%
+}
+
+@mixin caption {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; 
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}

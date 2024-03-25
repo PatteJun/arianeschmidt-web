@@ -1,0 +1,199 @@
+.home-trust {
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-bottom: 0px;
+  padding: 0 20px;
+  justify-content: space-between;
+  gap: 16px;
+
+
+
+  &-image {
+    width: 200px;
+    height: 129px;
+    position: relative;
+    border-color: transparent;
+
+
+  @include media-breakpoint-down(sm) {
+    width: auto;
+    height: 76px;
+  }
+  }
+
+  &-title {
+    color: rgba(177, 79, 45, 1);
+    height: auto;
+    flex-grow: 1;
+    font-size: 64px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Be Vietnam Pro;
+    font-weight: 400;
+    line-height: 110.00000238418579%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+
+    &--italic {
+      font-style: italic;
+      font-weight: 100;
+    }
+
+    @include media-breakpoint-down(lg) {
+      font-size: 40px;
+    }
+
+    @include media-breakpoint-down(sm) {
+      font-size: 24px;
+      line-height: 130%;
+    }
+  }
+
+  &-listing {
+    max-width: 1300px;
+    padding: 94px 20px 0 20px;
+    position: relative;
+    flex-shrink: 0;
+    border-color: transparent;
+    margin-bottom: 0px;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 42px;
+    row-gap: 36px;
+
+
+    @include media-breakpoint-down(lg) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @include media-breakpoint-down(md) {
+      width: 100%;
+      padding: 42px 20px 0;
+      row-gap: 24px;
+      grid-template-columns: 1fr;
+    }
+  }
+
+
+  &-desc {
+    color: rgb(50, 62, 71);
+    height: auto;
+    flex-grow: 1;
+    font-size: 24px;
+    align-self: auto;
+    flex-basis: 0;
+    font-style: Regular;
+    text-align: left;
+    font-family: Be Vietnam Pro;
+    font-weight: 400;
+    line-height: 150%;
+    font-stretch: normal;
+    text-decoration: none;
+
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+      margin: 0;
+      display: block;
+      font-size: 18px;
+      padding-left: 18px;
+      margin-bottom: 24px;
+      background-image: url("assets/circle.svg");
+      background-repeat: no-repeat;
+      background-position: 0 8px;
+    }
+  }
+
+  &-logos {
+    max-width: 1160px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    padding: 78px 20px 0 20px;  
+    padding-top: 156px;
+    margin-bottom: 0px;
+    flex-direction: column;
+
+    @include media-breakpoint-down(lg) {
+      padding-top: 70px;
+    }
+  }
+
+  &-logos-items {
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    justify-content: space-between;
+
+    @include media-breakpoint-down(lg) {
+      width: 100%;
+      padding: 0 20px;
+    }
+  }
+
+  &-logos-item {
+    width: 266px;
+    height: 55px;
+    position: relative;
+    border-color: transparent;
+    text-decoration: none;
+    object-fit: contain;
+    @include media-breakpoint-down(lg) {
+      width: 25%;
+    }
+  }
+  
+  &-logos-item1 {
+    width: 238px;
+    height: 90px;
+    position: relative;
+    border-color: transparent;
+    text-decoration: none;
+    object-fit: contain;
+    @include media-breakpoint-down(lg) {
+      width: 30%;
+    }
+  }
+
+  &-logos-item2 {
+    width: 234px;
+    height: 66px;
+    position: relative;
+    border-color: transparent;
+    text-decoration: none;
+    object-fit: contain;
+    @include media-breakpoint-down(lg) {
+      width: 25%;
+    }
+  }
+
+  &-actions {
+    width: 1260px;
+    display: flex;
+    padding: 114px 0 0 0;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    flex-direction: column;
+
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+      padding: 80px 20px 0;
+    }
+  }
+}

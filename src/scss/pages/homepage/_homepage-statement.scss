@@ -1,0 +1,105 @@
+.home-statement {
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-bottom: 198px;
+  padding: 0 20px;
+
+  @include media-breakpoint-down(lg) {
+    flex-direction: column;
+    margin-bottom: 58px;
+  }
+
+  &-content {
+    max-width: 820px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    flex-direction: column;
+
+    @include media-breakpoint-down(lg) {
+      max-width: none;
+    }
+  }
+
+  &-content-container {
+    display: flex;
+    padding: 0 0 24px 0;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(193, 197, 199, 1);
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 32px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+  }
+
+  &-icon {
+    width: 44px;
+    height: 33px;
+    position: relative;
+    box-sizing: content-box;
+    margin-right: 160px;
+
+    @include media-breakpoint-down(xxl) {
+      margin-right: 40px;
+    }
+
+    @include media-breakpoint-down(lg) {
+      margin-bottom: 32px;
+    }
+  
+  }
+
+  &-quote {
+    color: rgb(98, 105, 111);
+    height: auto;
+    flex-grow: 1;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: left;
+    font-family: Be Vietnam Pro;
+    font-weight: 400;
+    line-height: 150%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+
+    @include media-breakpoint-down(lg) {
+      font-size: 18px;
+    }
+  }
+
+  &-author {
+    color: rgba(98, 105, 111, 1);
+    height: auto;
+    font-size: 16px;
+    align-self: stretch;
+    font-style: italic;
+    text-align: left;
+    font-family: Be Vietnam Pro;
+    font-weight: 400;
+    line-height: 150%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 12px;
+    }
+  }
+}

@@ -1,0 +1,70 @@
+
+.home-quote {
+  max-width: 1300px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 20px;
+
+  @include media-breakpoint-down(sm) {
+
+  }
+
+  &-quote-container {
+    width: 840px;
+    display: flex;
+    padding: 0 0 24px 0;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(193, 197, 199, 1);
+    border-style: solid;
+    border-width: 1px;
+    flex-direction: column;
+    justify-content: center;
+
+    @include media-breakpoint-down(sm) {
+      padding: 0 0 48px 0;
+      border-bottom: 1px #C1C5C7 solid;
+    }
+  }
+
+  &-icon {
+    width: 44px;
+    height: 33px;
+    position: relative;
+    box-sizing: content-box;
+    margin-bottom: 42px;
+
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 24px;
+    }
+  }
+
+  &-quote {
+    color: rgb(50, 62, 71);
+    max-width: 844px;
+    width: 100%;
+    height: auto;
+    font-size: 48px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Be Vietnam Pro;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+
+    @include media-breakpoint-down(lg) {
+      font-size: 24px;
+      line-height: 130%;
+    }
+  }
+}

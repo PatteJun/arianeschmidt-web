@@ -1,0 +1,21 @@
+@import './abstracts/mixins';
+@import './abstracts/variables';
+
+@import './base/base';
+@import './base/normalize';
+
+@import './components/navbar';
+@import './components/footer';
+
+@import './pages/homepage/homepage-main';
+@import './pages/homepage/homepage-hero';
+@import './pages/homepage/homepage-statement';
+@import './pages/homepage/homepage-features';
+@import './pages/homepage/homepage-quote';
+@import './pages/homepage/homepage-trust';
+@import './pages/homepage/homepage-details';
+@import './pages/homepage/homepage-areas';
+@import './pages/homepage/homepage-process';
+@import './pages/homepage/homepage-pricing';
+@import './pages/homepage/homepage-offer';
+@import './pages/homepage/homepage-cta'

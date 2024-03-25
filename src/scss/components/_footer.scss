@@ -1,0 +1,70 @@
+.footer {
+  &-footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 78px 0;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: transparent;
+    flex-direction: column;
+  }
+
+&-footer-container {
+  max-width: 1300px;
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+&-footer-links {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  gap: 68px;
+
+  @include media-breakpoint-down(sm) {
+    width: 100%;
+    text-align: center;
+  }
+}
+&-text {
+  color: rgb(50, 62, 71);
+  height: auto;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+
+  @include media-breakpoint-down(sm) {
+    width: 100%;
+    text-align: center;
+    width: 33%;
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+&-copy {
+  @include media-breakpoint-down(sm) {
+    width: 100%;
+    border-top: 1px #C1C5C7 solid;
+    margin-top: 24px;
+    padding-top: 24px;
+  }
+}
+}

@@ -1,0 +1,110 @@
+
+.home-features {
+  max-width: 1300px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px;
+
+  @include media-breakpoint-down(lg) {
+    flex-direction: column;
+  }
+
+  &-column {
+    height: 420px;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @include media-breakpoint-down(lg) {
+      width: 100%;
+      height: auto;
+      gap: 28px;
+    }
+  }
+
+  &-item {
+    max-width: 430px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    flex-direction: column;
+    z-index: 1;
+
+    @include media-breakpoint-down(lg) {
+      max-width: none;
+      margin-bottom: 28px;
+    }
+  }
+
+  &-title {
+    color: rgba(50, 62, 71, 1);
+    height: auto;
+    font-size: 24px;
+    align-self: stretch;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Be Vietnam Pro;
+    font-weight: 600;
+    line-height: 150%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 24px;
+    text-decoration: none;
+
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 12px;
+    }
+  }
+
+  &-desc {
+    color: rgba(98, 105, 111, 1);
+    height: auto;
+    font-size: 18px;
+    align-self: stretch;
+    font-style: Regular;
+    text-align: left;
+    font-family: Be Vietnam Pro;
+    font-weight: 400;
+    line-height: 150%;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+
+    @include media-breakpoint-down(sm) {
+      color: rgb(98, 105, 111);
+      font-size: 14px;
+    }
+  }
+
+  &-image {
+    width: 502px;
+    bottom: 0;
+    height: 800px;
+    position: absolute;
+    object-fit: cover;
+
+    @include media-breakpoint-down(xl) {
+      width: 400px;
+      object-fit: contain;
+      bottom: -20%;
+    }
+
+    @include media-breakpoint-down(lg) {
+      display: none;
+    }
+  }
+}
