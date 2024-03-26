@@ -5,7 +5,6 @@
   display: flex;
   position: relative;
   align-items: flex-start;
-  flex-shrink: 0;
   border-color: transparent;
   flex-direction: column;
   width: 100%;
@@ -18,7 +17,6 @@
     display: flex;
     position: relative;
     align-items: flex-start;
-    flex-shrink: 0;
     border-color: transparent;
     flex-direction: column;
 
@@ -53,6 +51,10 @@
     border-color: transparent;
     flex-direction: column;
     gap: 32px;
+
+    @include media-breakpoint-down(md) {
+      gap: 0;
+    }
   }
 
   &-desc {
@@ -69,6 +71,8 @@
     margin-right: 0;
     margin-bottom: 32px;
     text-decoration: none;
+    position: relative;
+    z-index: 1;
 
     @include media-breakpoint-down(sm) {
       font-size: 18px;
@@ -85,9 +89,10 @@
     @include media-breakpoint-down(sm) {
       right: 0;
       width: 180px;
-      bottom: -200px;
+      bottom: -100px;
       display: block;
       position: absolute;
+      z-index: 0;
     }
   }
 }

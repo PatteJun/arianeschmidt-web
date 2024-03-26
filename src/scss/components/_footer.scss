@@ -6,7 +6,6 @@
     padding: 78px 0;
     position: relative;
     align-items: center;
-    flex-shrink: 0;
     border-color: transparent;
     flex-direction: column;
   }
@@ -18,11 +17,14 @@
   display: flex;
   position: relative;
   align-items: center;
-  flex-shrink: 0;
   border-color: transparent;
   justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 20px;
+
+  @include media-breakpoint-down(md) {
+    row-gap: 20px;
+  }
 }
 
 &-footer-links {
@@ -31,6 +33,11 @@
   align-items: flex-start;
   border-color: transparent;
   gap: 68px;
+
+  @include media-breakpoint-down(md) {
+    gap: 20px;
+    align-items: center;
+  }
 
   @include media-breakpoint-down(sm) {
     width: 100%;

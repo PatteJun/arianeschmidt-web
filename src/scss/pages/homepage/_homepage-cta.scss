@@ -4,11 +4,15 @@
   display: flex;
   position: relative;
   align-items: flex-start;
-  flex-shrink: 0;
   margin-left: -96px;
   border-color: transparent;
   flex-direction: column;
   padding: 0 20px;
+
+  @include media-breakpoint-down(md) {
+    padding: 0;
+    margin-left: 0;
+  }
 
   @include media-breakpoint-down(sm) {
     width: 100%;
@@ -23,7 +27,7 @@
     z-index: 1;
     position: relative;
     align-items: flex-start;
-    flex-shrink: 0;
+
     border-color: transparent;
     border-radius: 42px;
     flex-direction: column;
@@ -36,6 +40,8 @@
 
     @include media-breakpoint-down(md) {
       padding: 70px 20px 64px;
+      margin-left: 0;
+      max-width: none;
     }
   }
 
@@ -95,6 +101,21 @@
     align-items: flex-start;
     border-color: transparent;
     gap: 24px;
+
+    @include media-breakpoint-down(md) {
+      .home-primary-button {
+        width: 100%;
+
+        span {
+          font-size: 15px;
+        }
+      }
+
+      .home-button-without-border {
+        width: 100%;
+        justify-content: center;
+      }
+    }
 
     @include media-breakpoint-down(sm) {
       flex-wrap: wrap;

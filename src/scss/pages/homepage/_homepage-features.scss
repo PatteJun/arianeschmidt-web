@@ -4,7 +4,6 @@
   display: flex;
   position: relative;
   align-items: center;
-  flex-shrink: 0;
   border-color: transparent;
   justify-content: space-between;
   width: 100%;
@@ -20,7 +19,6 @@
     position: relative;
     align-self: stretch;
     align-items: flex-start;
-    flex-shrink: 0;
     border-color: transparent;
     flex-direction: column;
     justify-content: space-between;
@@ -28,7 +26,7 @@
     @include media-breakpoint-down(lg) {
       width: 100%;
       height: auto;
-      gap: 28px;
+      gap: 0;
     }
   }
 
@@ -38,7 +36,6 @@
     display: flex;
     position: relative;
     align-items: flex-start;
-    flex-shrink: 0;
     border-color: transparent;
     flex-direction: column;
     z-index: 1;
@@ -63,6 +60,10 @@
     margin-right: 0;
     margin-bottom: 24px;
     text-decoration: none;
+
+    @include media-breakpoint-down(md) {
+      font-size: 18px;
+    }
 
     @include media-breakpoint-down(sm) {
       margin-bottom: 12px;

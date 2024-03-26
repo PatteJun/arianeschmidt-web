@@ -4,33 +4,26 @@
   display: flex;
   position: relative;
   align-items: flex-start;
-  flex-shrink: 0;
   border-color: transparent;
   flex-direction: column;
   width: 100%;
   padding: 0 20px;
 
-  @include media-breakpoint-down(sm) {
-
-  }
-
-  &-quote-container {
-    width: 840px;
+  &-container {
+    max-width: 840px;
+    width: 100%;
     display: flex;
     padding: 0 0 24px 0;
     position: relative;
     align-items: flex-start;
-    flex-shrink: 0;
-    border-color: rgba(193, 197, 199, 1);
-    border-style: solid;
-    border-width: 1px;
     flex-direction: column;
     justify-content: center;
 
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(lg) {
       padding: 0 0 48px 0;
       border-bottom: 1px #C1C5C7 solid;
     }
+
   }
 
   &-icon {

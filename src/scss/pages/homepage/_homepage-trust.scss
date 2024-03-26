@@ -4,7 +4,6 @@
   display: flex;
   position: relative;
   align-items: center;
-  flex-shrink: 0;
   border-color: transparent;
   margin-bottom: 0px;
   padding: 0 20px;
@@ -68,7 +67,6 @@
     max-width: 1300px;
     padding: 94px 20px 0 20px;
     position: relative;
-    flex-shrink: 0;
     border-color: transparent;
     margin-bottom: 0px;
     flex-direction: column;
@@ -85,7 +83,7 @@
     @include media-breakpoint-down(md) {
       width: 100%;
       padding: 42px 20px 0;
-      row-gap: 24px;
+      row-gap: 0;
       grid-template-columns: 1fr;
     }
   }
@@ -125,7 +123,6 @@
     display: flex;
     position: relative;
     align-items: center;
-    flex-shrink: 0;
     border-color: transparent;
     padding: 78px 20px 0 20px;  
     padding-top: 156px;
@@ -133,7 +130,7 @@
     flex-direction: column;
 
     @include media-breakpoint-down(lg) {
-      padding-top: 70px;
+      padding-top: 46px;
     }
   }
 
@@ -142,7 +139,6 @@
     position: relative;
     align-self: stretch;
     align-items: center;
-    flex-shrink: 0;
     border-color: transparent;
     justify-content: space-between;
 
@@ -189,14 +185,23 @@
   }
 
   &-actions {
-    width: 1260px;
+    max-width: 1300px;
+    width: 100%;
     display: flex;
-    padding: 114px 0 0 0;
+    padding: 114px 20px 0 20px;
     position: relative;
     align-items: center;
-    flex-shrink: 0;
     border-color: transparent;
     flex-direction: column;
+
+    @include media-breakpoint-down(md) {
+      .home-primary-button {
+        width: 100%;
+        span {
+          font-size: 15px;
+        }
+      }
+    } 
 
     @include media-breakpoint-down(sm) {
       width: 100%;
