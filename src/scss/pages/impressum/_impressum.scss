@@ -1,0 +1,111 @@
+.impressum {
+  &-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    padding-top: 202px;
+    border-color: transparent;
+    padding-left: 102px 0;
+    border-radius: 0 0 42px 42px;
+    padding-right: 102px 0;
+    flex-direction: column;
+    padding-bottom: 202px;
+    background-color: rgba(250, 246, 243, 1);
+
+    a {
+      color: inherit;
+      display: inline;
+      word-break: break-word;
+    }
+
+    @include media-breakpoint-down(md) {
+      padding-top: 160px;
+      padding-bottom: 100px;
+    }
+  }
+
+  &-simple-content {
+    width: 100%;
+    display: flex;
+    position: relative;
+    max-width: 840px;
+    padding: 0 20px;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    flex-direction: column;
+  }
+
+  &-title {
+    color: rgba(50, 62, 71, 1);
+    width: 100%;
+    height: auto;
+    font-size: 72px;
+    align-self: stretch;
+    text-align: left;
+    font-family: Be Vietnam Pro;
+    font-weight: 400;
+    line-height: 110.00000238418579%;
+    font-stretch: normal;
+    margin-bottom: 62px;
+
+    @include media-breakpoint-down(lg) {
+      font-size: 60px;
+      margin-bottom: 48px;
+    }
+
+    @include media-breakpoint-down(md) {
+      font-size: 44px;
+      margin-bottom: 32px;
+    }
+  }
+
+  &-content {
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+  }
+
+  &-title-secondary {
+    color: rgba(50, 62, 71, 1);
+    width: 100%;
+    height: auto;
+    font-size: 32px;
+    align-self: auto;
+    text-align: left;
+    font-family: Be Vietnam Pro;
+    font-weight: 500;
+    line-height: 150%;
+    font-stretch: normal;
+    margin-bottom: 24px;
+
+    @include media-breakpoint-down(md) {
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
+  }
+
+  &-text {
+    color: rgba(50, 62, 71, 1);
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    align-self: auto;
+    text-align: left;
+    font-family: Be Vietnam Pro;
+    font-weight: 400;
+    line-height: 150%;
+    font-stretch: normal;
+    margin-bottom: 24px;
+
+    @include media-breakpoint-down(md) {
+      font-size: 16px;
+    }
+  }
+}
