@@ -1,4 +1,17 @@
+.home-offer-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  margin-top: -164px;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
 
+  @include media-breakpoint-down(lg) {
+    margin-top: -114px;
+  }
+}
 .home-offer {
   max-width: 1300px;
   display: flex;

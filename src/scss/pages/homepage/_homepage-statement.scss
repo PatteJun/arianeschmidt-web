@@ -1,3 +1,24 @@
+.home-statement-section {
+  position: relative;
+  height: auto;
+  display: flex;
+  padding: 225px 0 230px 0;
+  position: relative;
+  margin-top: -68px;
+  align-items: center;
+  border-color: transparent;
+  border-radius: 42px;
+  flex-direction: column;
+  background-color: rgba(250, 246, 243, 1);
+  overflow: hidden;
+
+  @include media-breakpoint-down(lg) {
+    padding-top: 34px;
+    padding-bottom: 40px;
+    margin-top: 34px;
+  }
+}
+
 .home-statement {
   max-width: 1300px;
   width: 100%;

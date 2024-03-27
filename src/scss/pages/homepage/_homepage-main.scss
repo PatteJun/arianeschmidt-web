@@ -1,196 +1,25 @@
 
 
-.home-section {
-  width: 100%;
-  height: auto;
-  display: flex;
-  z-index: 10;
-  position: relative;
-  align-items: center;
-  border-color: transparent;
-  flex-direction: column;
-  padding: 161px 0 0;
-
-  @include media-breakpoint-down(lg) {
-    padding-top: 120px;
-  }
-}
-
-.home-section01 {
-  position: relative;
-  height: auto;
-  display: flex;
-  padding: 225px 0 230px 0;
-  position: relative;
-  margin-top: -68px;
-  align-items: center;
-  border-color: transparent;
-  border-radius: 42px;
-  flex-direction: column;
-  background-color: rgba(250, 246, 243, 1);
-  overflow: hidden;
-
-  @include media-breakpoint-down(lg) {
-    padding-top: 34px;
-    padding-bottom: 40px;
-    margin-top: 34px;
-  }
-}
-
-
-.home-section02 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  padding: 72px 0 0 0;
-  position: relative;
-  align-items: center;
-  border-color: transparent;
-  flex-direction: column;
-
-
-  @include media-breakpoint-down(lg) {
-    padding: 48px 0 0 0;
-  }
-}
-
-.home-section03 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  padding: 142px 0 0 0;
-  position: relative;
-  align-items: center;
-  border-color: transparent;
-  flex-direction: column;
-
-  @include media-breakpoint-down(lg) {
-    padding: 64px 0 0 0;
-  }
-}
-
-.home-section04 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  padding: 148px 0 162px 0;
-  position: relative;
-  margin-top: 172px;
-  align-items: center;
-  border-color: transparent;
-  border-radius: 42px;
-  flex-direction: column;
-  background-size: contain;
-  background-color: rgba(50, 62, 71, 1);
-  background-image: url("public/zimmerpflanze-2.png");
-  background-repeat: no-repeat;
-  background-position: right;
-
-  @include media-breakpoint-down(lg) {
-    margin-top: 80px;
-    padding-top: 72px;
-    padding-bottom: 78px;
-    background-image: none;
-  }
-}
 
 
 
-.home-section05 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  position: relative;
-  margin-top: 148px;
-  align-items: center;
-  border-color: transparent;
-  flex-direction: column;
-
-  @include media-breakpoint-down(lg) {
-    margin-top: 86px;
-  }
-}
-
-.home-section06 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  padding: 148px 0 132px 0;
-  position: relative;
-  margin-top: 232px;
-  align-items: center;
-  border-color: transparent;
-  border-radius: 42px 42px 0 0;
-  flex-direction: column;
-  background-color: rgba(250, 246, 243, 1);
-
-  @include media-breakpoint-down(xxl) {
-    margin-top: 80px;
-  }
-
-  @include media-breakpoint-down(lg) {
-    margin-top: 48px;
-    padding-top: 70px;
-  }
-}
 
 
-.home-section07 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  padding: 146px 0 162px 0;
-  position: relative;
-  margin-top: -42px;
-  align-items: center;
-  border-color: transparent;
-  border-radius: 42px;
-  flex-direction: column;
-  background-color: rgba(242, 235, 230, 1);
 
-  @include media-breakpoint-down(xl) {
-    padding-bottom: 200px;
-    padding-top: 70px;
-  }
 
-  @include media-breakpoint-down(lg) {
-    padding-bottom: 150px;
-  }
-}
 
-.home-section08 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  position: relative;
-  margin-top: -164px;
-  align-items: center;
-  border-color: transparent;
-  flex-direction: column;
 
-  @include media-breakpoint-down(lg) {
-    margin-top: -114px;
-  }
-}
 
-.home-section09 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  position: relative;
-  margin-top: 164px;
-  align-items: center;
-  border-color: transparent;
-  flex-direction: column;
 
-  @include media-breakpoint-down(xl) {
-    margin-top: 100px;
-  }
 
-  @include media-breakpoint-down(sm) {
-    margin-top: 0;
-  }
-}
+
+
+
+
+
+
+
+
 
 .home-navlink,
 .home-link {

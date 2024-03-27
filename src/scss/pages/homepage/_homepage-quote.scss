@@ -1,3 +1,19 @@
+.home-quote-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 72px 0 0 0;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+
+
+  @include media-breakpoint-down(lg) {
+    padding: 48px 0 0 0;
+  }
+}
+
 
 .home-quote {
   max-width: 1300px;

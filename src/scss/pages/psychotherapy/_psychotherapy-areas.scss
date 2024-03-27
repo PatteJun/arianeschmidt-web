@@ -1,0 +1,221 @@
+.psychotherapy-areas-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: 148px;
+  flex-direction: column;
+
+  @include media-breakpoint-down(md) {
+    padding-top: 70px;
+  }
+}
+
+.psychotherapy-areas {
+  &-header {
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    padding: 0 20px 148px 20px;
+    position: relative;
+    align-items: flex-start;
+
+    @include media-breakpoint-down(xxl) {
+      flex-direction: column;
+      padding-bottom: 80px;
+    }
+
+    @include media-breakpoint-down(md) {
+      padding-bottom: 60px;
+    }
+  }
+
+  &-title {
+    color: rgb(50, 62, 71);
+    height: auto;
+    font-size: 48px;
+    align-self: auto;
+    text-align: left;
+    font-family: Be Vietnam Pro;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 48px;
+
+    @include media-breakpoint-down(xxl) {
+      margin-right: 0;
+      margin-bottom: 24px;
+    }
+
+    @include media-breakpoint-down(lg) {
+      font-size: 32px;
+    }
+
+    @include media-breakpoint-down(md) {
+      font-size: 24px;
+    }
+  }
+
+  &-desc {
+    color: rgb(50, 62, 71);
+    height: auto;
+    font-size: 22px;
+    align-self: auto;
+    text-align: left;
+    font-family: Be Vietnam Pro;
+    font-weight: 400;
+    line-height: 150%;
+    font-stretch: normal;
+
+    @include media-breakpoint-down(lg) {
+      font-size: 20px;
+    }
+
+    @include media-breakpoint-down(md) {
+      font-size: 16px;
+    }
+  }
+
+    &-body {
+      display: flex;
+      position: relative;
+      align-items: flex-start;
+      border-color: transparent;
+      flex-direction: column;
+    }
+
+    &-list-row {
+      max-width: 1300px;
+      padding: 0 20px;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+      margin-bottom: 64px;
+
+      @include media-breakpoint-down(xxl) {
+        grid-template-columns: 1fr 1fr;
+        gap: 36px;
+      }
+
+      @include media-breakpoint-down(md) {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    &-item {
+      display: flex;
+      position: relative;
+      align-items: flex-start;
+      border-color: transparent;
+      flex-direction: column;
+
+      @include media-breakpoint-down(md) {
+        display: grid;
+        grid-template-columns: 160px 1fr;
+        gap: 20px;
+      }
+
+      @include media-breakpoint-down(sm) {
+        display: grid;
+        grid-template-columns: 98px 1fr;
+        gap: 20px;
+      }
+    }
+
+    &-item-image {
+      width: 100%;
+      aspect-ratio: 1.35;
+      position: relative;
+      align-self: stretch;
+      border-color: transparent;
+      border-radius: 32px;
+      margin-bottom: 28px;
+
+      @include media-breakpoint-down(lg) {
+        border-radius: 18px;
+        aspect-ratio: 1.5;
+      }
+
+      @include media-breakpoint-down(md) {
+        margin-bottom: 0;
+
+      }
+
+      @include media-breakpoint-down(sm) {
+        aspect-ratio: unset;
+        height: 76px;
+      }
+    }
+
+    &-item-content {
+      display: flex;
+      position: relative;
+      align-self: stretch;
+      align-items: flex-start;
+      border-color: transparent;
+      flex-direction: column;
+    }
+
+    &-item-title {
+      color: rgba(50, 62, 71, 1);
+      height: auto;
+      font-size: 24px;
+      align-self: stretch;
+      text-align: left;
+      font-family: Be Vietnam Pro;
+      font-weight: 500;
+      line-height: 129.99999523162842%;
+      font-stretch: normal;
+      margin-bottom: 24px;
+      text-decoration: none;
+
+      @include media-breakpoint-down(lg) {
+        font-size: 20px;
+        margin-bottom: 18px;
+      }
+
+      @include media-breakpoint-down(md) {
+        font-size: 16px;
+        margin-bottom: 2px;
+      }
+    }
+
+    &-item-desc {
+      color: rgba(98, 105, 111, 1);
+      height: auto;
+      font-size: 18px;
+      align-self: stretch;
+      text-align: left;
+      font-family: Be Vietnam Pro;
+      font-weight: 400;
+      line-height: 150%;
+      font-stretch: normal;
+
+      @include media-breakpoint-down(lg) {
+        font-size: 15px;
+      }
+
+      @include media-breakpoint-down(md) {
+        font-size: 13px;
+      }
+    }
+
+    &-actions {
+      display: flex;
+      position: relative;
+      align-self: stretch;
+      align-items: center;
+      border-color: transparent;
+      flex-direction: column;
+
+      .psychotherapy-primary-button {
+        @include media-breakpoint-down(md) {
+          width: calc(100% - 40px);
+          justify-content: center;
+          margin-bottom: 64px;
+        }
+      }
+    }
+  }

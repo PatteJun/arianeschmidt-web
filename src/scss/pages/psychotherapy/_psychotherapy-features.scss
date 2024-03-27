@@ -1,0 +1,138 @@
+.psychotherapy-features-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 48px 0 164px 0;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+
+  @include media-breakpoint-down(md) {
+    padding-top: 30px;
+  }
+}
+
+.psychotherapy-features {
+  max-width: 1300px;
+  padding: 0 20px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+
+  &-content {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border-color: transparent;
+    flex-direction: column;
+  }
+
+  &-icon {
+    width: 44px;
+    height: 33px;
+    position: relative;
+    box-sizing: content-box;
+    margin-bottom: 24px;
+  }
+
+  &-content-text {
+    max-width: 840px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &-title {
+    color: rgba(50, 62, 71, 1);
+    height: auto;
+    font-size: 64px;
+    align-self: stretch;
+    text-align: left;
+    font-family: Be Vietnam Pro;
+    font-weight: 400;
+    line-height: 110.00000238418579%;
+    font-stretch: normal;
+    margin-bottom: 48px;
+
+    @include media-breakpoint-down(md) {
+      font-size: 42px;
+      margin-bottom: 28px;
+    }
+
+    @include media-breakpoint-down(sm) {
+      font-size: 24px;
+      line-height: 130%;
+      margin-bottom: 16px;
+    }
+  }
+
+  &-desc {
+    color: rgb(98, 105, 111);
+    height: auto;
+    font-size: 22px;
+    align-self: stretch;
+    text-align: left;
+    font-family: "Be Vietnam Pro";
+    font-weight: 400;
+    line-height: 150%;
+    font-stretch: normal;
+
+    @include media-breakpoint-down(md) {
+      font-size: 20px;
+    }
+
+    @include media-breakpoint-down(md) {
+      font-size: 18px;
+    }
+  }
+
+  &-bottom-content {
+    color: rgb(98, 105, 111);
+    height: auto;
+    font-size: 22px;
+    align-self: stretch;
+    border-top: 1px #C1C5C7 solid;
+    text-align: left;
+    font-family: Be Vietnam Pro;
+    font-weight: 400;
+    line-height: 150%;
+    padding-top: 33px;
+    font-stretch: normal;
+    position: relative;
+    z-index: 2;
+
+    @include media-breakpoint-down(md) {
+      font-size: 20px;
+    }
+
+    @include media-breakpoint-down(md) {
+      font-size: 18px;
+    }
+  }
+
+  .semibold {
+    font-weight: 600;
+  }
+
+  &-image {
+    width: 350px;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    @include media-breakpoint-down(md) {
+      width: 200px;
+    }
+
+    @include media-breakpoint-down(md) {
+      width: 170px;
+      z-index: 1;
+      bottom: -20px;
+    }
+  }
+}

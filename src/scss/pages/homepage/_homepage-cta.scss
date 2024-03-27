@@ -1,3 +1,22 @@
+.home-cta-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  margin-top: 164px;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+
+  @include media-breakpoint-down(xl) {
+    margin-top: 100px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    margin-top: 0;
+  }
+}
+
 .home-cta {
   max-width: 1300px;
   width: 100%;
@@ -70,6 +89,10 @@
     margin-bottom: 34px;
     text-decoration: none;
 
+    @include media-breakpoint-down(lg) {
+      font-size: 32px;
+    }
+
     @include media-breakpoint-down(sm) {
       font-size: 24px;
       margin-bottom: 28px;
@@ -103,6 +126,7 @@
     gap: 24px;
 
     @include media-breakpoint-down(md) {
+      width: 100%;
       .home-primary-button {
         width: 100%;
 

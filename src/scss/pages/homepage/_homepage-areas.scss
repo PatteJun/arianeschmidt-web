@@ -1,3 +1,17 @@
+.home-areas-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  margin-top: 148px;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+
+  @include media-breakpoint-down(lg) {
+    margin-top: 86px;
+  }
+}
 
 .home-areas {
   &-header {

@@ -1,3 +1,18 @@
+.home-trust-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 142px 0 0 0;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+
+  @include media-breakpoint-down(lg) {
+    padding: 64px 0 0 0;
+  }
+}
+
 .home-trust {
   max-width: 1300px;
   width: 100%;

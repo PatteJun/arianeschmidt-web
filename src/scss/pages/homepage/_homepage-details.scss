@@ -1,4 +1,26 @@
+.home-details-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 148px 0 162px 0;
+  position: relative;
+  margin-top: 172px;
+  align-items: center;
+  border-radius: 42px;
+  flex-direction: column;
+  background-size: contain;
+  background-color: rgba(50, 62, 71, 1);
+  background-image: url("public/zimmerpflanze-2.png");
+  background-repeat: no-repeat;
+  background-position: right;
 
+  @include media-breakpoint-down(lg) {
+    margin-top: 80px;
+    padding-top: 72px;
+    padding-bottom: 78px;
+    background-image: none;
+  }
+}
 
 .home-details {
   max-width: 1300px;

@@ -1,3 +1,19 @@
+.home-hero-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  z-index: 10;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+  padding: 161px 0 0;
+
+  @include media-breakpoint-down(lg) {
+    padding-top: 120px;
+  }
+}
+
 .home-hero {
   width: 100%;
   position: relative;

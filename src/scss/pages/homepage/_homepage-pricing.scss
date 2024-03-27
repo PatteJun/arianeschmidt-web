@@ -1,3 +1,25 @@
+.home-pricing-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 146px 0 162px 0;
+  position: relative;
+  margin-top: -42px;
+  align-items: center;
+  border-color: transparent;
+  border-radius: 42px;
+  flex-direction: column;
+  background-color: rgba(242, 235, 230, 1);
+
+  @include media-breakpoint-down(xl) {
+    padding-bottom: 200px;
+    padding-top: 70px;
+  }
+
+  @include media-breakpoint-down(lg) {
+    padding-bottom: 150px;
+  }
+}
 
 .home-pricing {
   max-width: 1300px;
@@ -25,6 +47,10 @@
     margin-right: 42px;
     margin-bottom: 0;
     text-decoration: none;
+
+    @include media-breakpoint-down(lg) {
+      font-size: 32px;
+    }
 
     @include media-breakpoint-down(sm) {
       margin: 0;
