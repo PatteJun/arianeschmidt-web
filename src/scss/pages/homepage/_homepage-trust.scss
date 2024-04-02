@@ -32,7 +32,7 @@
     gap: 16px;
    }
 
-  &-image {
+  &__image {
     width: 200px;
     height: 129px;
     position: relative;
@@ -50,7 +50,7 @@
   }
   }
 
-  &-title {
+  &__title {
     color: rgba(177, 79, 45, 1);
     height: auto;
     font-size: 64px;
@@ -78,7 +78,7 @@
     }
   }
 
-  &-listing {
+  &__listing {
     max-width: 1300px;
     padding: 94px 20px 0 20px;
     position: relative;
@@ -104,7 +104,7 @@
   }
 
 
-  &-desc {
+  &__desc {
     color: rgb(50, 62, 71);
     height: auto;
     flex-grow: 1;
@@ -132,7 +132,7 @@
     }
   }
 
-  &-logos {
+  &__logos {
     max-width: 1160px;
     width: 100%;
     display: flex;
@@ -149,7 +149,7 @@
     }
   }
 
-  &-logos-items {
+  &__logos-items {
     display: flex;
     position: relative;
     align-self: stretch;
@@ -163,7 +163,7 @@
     }
   }
 
-  &-logos-item {
+  &__logos-item {
     width: 266px;
     height: 55px;
     position: relative;
@@ -175,7 +175,7 @@
     }
   }
   
-  &-logos-item1 {
+  &__logos-item1 {
     width: 238px;
     height: 90px;
     position: relative;
@@ -187,7 +187,7 @@
     }
   }
 
-  &-logos-item2 {
+  &__logos-item2 {
     width: 234px;
     height: 66px;
     position: relative;
@@ -199,7 +199,7 @@
     }
   }
 
-  &-actions {
+  &__actions {
     max-width: 1300px;
     width: 100%;
     display: flex;

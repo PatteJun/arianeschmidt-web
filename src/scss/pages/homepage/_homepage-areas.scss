@@ -14,7 +14,7 @@
 }
 
 .home-areas {
-  &-header {
+  &__header {
     max-width: 1300px;
     display: flex;
     position: relative;
@@ -32,7 +32,7 @@
     }
   }
 
-  &-title {
+  &__title {
     color: rgb(50, 62, 71);
     height: auto;
     flex-grow: 1;
@@ -54,7 +54,7 @@
     }
   }
 
-  &-desc {
+  &__desc {
     color: rgba(50, 62, 71, 1);
     height: auto;
     flex-grow: 1;
@@ -79,7 +79,7 @@
     }
   }
 
-  &-body {
+  &__body {
     position: relative;
     display: grid;
     margin-bottom: 68px;
@@ -108,7 +108,7 @@
     }
   }
 
-  &-item {
+  &__item {
     display: flex;
     position: relative;
     flex-grow: 1;
@@ -127,7 +127,7 @@
     }
   }
 
-  &-item-image {
+  &__item-image {
     width: 334px;
     height: 248px;
     position: relative;
@@ -154,7 +154,7 @@
     }
   }
 
-  &-item-content {
+  &__item-content {
     display: flex;
     position: relative;
     align-self: stretch;
@@ -163,7 +163,7 @@
     flex-direction: column;
   }
 
-  &-item-title {
+  &__item-title {
     color: rgba(50, 62, 71, 1);
     height: auto;
     font-size: 24px;
@@ -188,7 +188,7 @@
     }
   }
 
-  &-item-desc {
+  &__item-desc {
     color: rgba(98, 105, 111, 1);
     height: auto;
     font-size: 18px;

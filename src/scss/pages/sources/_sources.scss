@@ -1,4 +1,4 @@
-.impressum {
+.sources {
   &-section {
     width: 100%;
     height: auto;
@@ -6,7 +6,7 @@
     position: relative;
     align-items: center;
     flex-shrink: 0;
-    padding-top: 202px;
+    padding-top: 103px;
     border-color: transparent;
     padding-left: 102px 0;
     border-radius: 0 0 42px 42px;
@@ -22,12 +22,12 @@
     }
 
     @include media-breakpoint-down(md) {
-      padding-top: 160px;
+      padding-top: 67px;
       padding-bottom: 100px;
     }
   }
 
-  &-simple-content {
+  &__simple-content {
     width: 100%;
     display: flex;
     position: relative;
@@ -39,7 +39,7 @@
     flex-direction: column;
   }
 
-  &-title {
+  &__title {
     color: rgba(50, 62, 71, 1);
     width: 100%;
     height: auto;
@@ -63,7 +63,7 @@
     }
   }
 
-  &-content {
+  &__content {
     width: 100%;
     display: flex;
     position: relative;
@@ -72,7 +72,7 @@
     flex-direction: column;
   }
 
-  &-title-secondary {
+  &__title-secondary {
     color: rgba(50, 62, 71, 1);
     width: 100%;
     height: auto;
@@ -91,7 +91,7 @@
     }
   }
 
-  &-text {
+  &__text {
     color: rgba(50, 62, 71, 1);
     width: 100%;
     height: auto;

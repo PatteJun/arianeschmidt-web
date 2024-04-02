@@ -25,7 +25,7 @@
   width: 100%;
   padding: 0 20px;
 
-  &-container {
+  &__container {
     max-width: 840px;
     width: 100%;
     display: flex;
@@ -42,7 +42,7 @@
 
   }
 
-  &-icon {
+  &__icon {
     width: 44px;
     height: 33px;
     position: relative;
@@ -54,7 +54,7 @@
     }
   }
 
-  &-quote {
+  &__quote {
     color: rgb(50, 62, 71);
     max-width: 844px;
     width: 100%;

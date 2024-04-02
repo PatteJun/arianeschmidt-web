@@ -18,7 +18,7 @@
   }
 }
 .psychotherapy-faq {
-  &-title {
+  &__title {
     color: rgba(50, 62, 71, 1);
     max-width: 840px;
     padding: 0 20px;
@@ -44,7 +44,7 @@
     }
   }
 
-  &-list {
+  &__list {
     max-width: 840px;
     padding: 0 20px;
     width: 100%;
@@ -55,7 +55,7 @@
     flex-direction: column;
   }
 
-  &-item {
+  &__item {
     display: flex;
     padding: 34px 0;
     position: relative;
@@ -75,7 +75,7 @@
     }
   }
 
-  &-header {
+  &__header {
     display: flex;
     position: relative;
     align-self: stretch;
@@ -105,7 +105,7 @@
   }
 
 }
-&-answer {
+&__answer {
   color: rgba(98, 105, 111, 1);
   height: auto;
   font-size: 18px;

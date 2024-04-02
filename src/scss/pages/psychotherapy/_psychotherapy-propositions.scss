@@ -26,7 +26,7 @@
   border-color: transparent;
   flex-direction: column;
 
-  &-title {
+  &__title {
     color: rgb(255, 255, 255);
     height: auto;
     font-size: 48px;
@@ -51,7 +51,7 @@
     }
   }
 
-  &-list {
+  &__list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 36px;
@@ -65,14 +65,14 @@
     }
   }
 
-  &-item {
+  &__item {
     display: flex;
     position: relative;
     align-items: flex-start;
     flex-direction: column;
   }
 
-  &-icon {
+  &__icon {
     width: 28px;
     height: 28px;
     display: flex;
@@ -103,7 +103,7 @@
     position: absolute;
   }
 
-  &-desc {
+  &__desc {
     color: rgba(193, 197, 199, 1);
     height: auto;
     font-size: 22px;

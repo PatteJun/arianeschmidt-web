@@ -32,7 +32,7 @@
   flex-wrap: wrap;
 
 
-  &-title {
+  &__title {
     color: rgba(50, 62, 71, 1);
     height: auto;
     flex-grow: 1;
@@ -58,7 +58,7 @@
     }
   }
 
-  &-body {
+  &__body {
     display: flex;
     padding: 24px 0 0 0;
     position: relative;
@@ -68,7 +68,7 @@
     gap: 26px;
   }
 
-  &-desc {
+  &__desc {
     color: rgba(98, 105, 111, 1);
     max-width: 609px;
     width: 100%;

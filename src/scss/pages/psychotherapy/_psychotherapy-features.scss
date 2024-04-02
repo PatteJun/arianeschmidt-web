@@ -21,7 +21,7 @@
   align-items: flex-start;
   flex-direction: column;
 
-  &-content {
+  &__content {
     display: flex;
     position: relative;
     align-items: flex-start;
@@ -29,7 +29,7 @@
     flex-direction: column;
   }
 
-  &-icon {
+  &__icon {
     width: 44px;
     height: 33px;
     position: relative;
@@ -37,7 +37,7 @@
     margin-bottom: 24px;
   }
 
-  &-content-text {
+  &__content-text {
     max-width: 840px;
     width: 100%;
     display: flex;
@@ -46,7 +46,7 @@
     flex-direction: column;
   }
 
-  &-title {
+  &__title {
     color: rgba(50, 62, 71, 1);
     height: auto;
     font-size: 64px;
@@ -70,7 +70,7 @@
     }
   }
 
-  &-desc {
+  &__desc {
     color: rgb(98, 105, 111);
     height: auto;
     font-size: 22px;
@@ -90,7 +90,7 @@
     }
   }
 
-  &-bottom-content {
+  &__bottom-content {
     color: rgb(98, 105, 111);
     height: auto;
     font-size: 22px;
@@ -118,7 +118,7 @@
     font-weight: 600;
   }
 
-  &-image {
+  &__image {
     width: 350px;
     object-fit: cover;
     position: absolute;

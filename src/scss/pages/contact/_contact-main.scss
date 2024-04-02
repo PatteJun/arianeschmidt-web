@@ -6,7 +6,7 @@
     position: relative;
     align-items: center;
     flex-shrink: 0;
-    padding-top: 172px;
+    padding-top: 73px;
     border-color: transparent;
     flex-direction: column;
     padding-bottom: 84px;
@@ -18,11 +18,11 @@
     }
 
     @include media-breakpoint-down(md) {
-      padding: 120px 0 0;
+      padding: 27px 0 0;
     }
   }
 
-  &-contact {
+  &__contact {
     max-width: 1300px;
     width: 100%;
     padding: 0 20px;
@@ -43,7 +43,7 @@
     }
   }
 
-  &-contact-information {
+  &__contact-information {
     max-width: 630px;
     width: 100%;
     display: flex;
@@ -65,13 +65,12 @@
     }
   }
 
-  &-title {
+  &__title {
     color: rgb(50, 62, 71);
     height: auto;
     font-size: 72px;
     align-self: stretch;
     text-align: left;
-    font-family: Be Vietnam Pro;
     font-weight: 400;
     line-height: 110%;
     font-stretch: normal;
@@ -96,7 +95,7 @@
     }
   }
 
-&-contact-address {
+&__contact-address {
   display: flex;
   position: relative;
   align-self: stretch;
@@ -109,14 +108,14 @@
     gap: 24px;
   }
 }
-&-contact-item {
+&__contact-item {
   display: flex;
   position: relative;
   align-self: stretch;
   align-items: center;
   border-color: transparent;
 }
-&-icon {
+&__icon {
   width: 24px;
   height: 24px;
   position: relative;
@@ -126,7 +125,7 @@
     margin-right: 12px;
   }
 }
-&-info-desc {
+&__info-desc {
   color: rgba(50, 62, 71, 1);
   height: auto;
   flex-grow: 1;
@@ -134,7 +133,6 @@
   align-self: auto;
   font-style: Regular;
   text-align: left;
-  font-family: Be Vietnam Pro;
   font-weight: 400;
   line-height: 129.99999523162842%;
   font-stretch: normal;
@@ -154,7 +152,7 @@
     font-size: 16px;
   }
 }
-&-contact-phone {
+&__contact-phone {
   display: flex;
   position: relative;
   align-self: stretch;
@@ -162,7 +160,7 @@
   flex-shrink: 0;
   border-color: transparent;
 }
-&-form {
+&__form {
   max-width: 630px;
   width: 100%;
   display: flex;
@@ -184,12 +182,12 @@
     margin-bottom: 70px;
   }
 }
-&-form1 {
+&__form1 {
   width: 100%;
   height: auto;
   display: flex;
 }
-&-form-fields {
+&__form-fields {
   display: flex;
   position: relative;
   align-self: stretch;
@@ -198,7 +196,7 @@
   flex-direction: column;
   width: 100%;
 }
-&-form-fields-row {
+&__form-fields-row {
   display: flex;
   position: relative;
   align-self: stretch;
@@ -207,14 +205,13 @@
   margin-bottom: 16px;
   flex-direction: column;
 }
-&-label {
+&__label {
   color: rgba(50, 62, 71, 1);
   height: auto;
   font-size: 14px;
   align-self: stretch;
   font-style: Regular;
   text-align: left;
-  font-family: Be Vietnam Pro;
   font-weight: 400;
   line-height: 150%;
   font-stretch: normal;
@@ -222,7 +219,7 @@
   margin-bottom: 6px;
   text-decoration: none;
 }
-&-input-field {
+&__input-field {
   width: 100%;
   height: 48px;
   display: flex;
@@ -237,11 +234,10 @@
   border-radius: 10px;
   padding-right: 19px;
 }
-&-select {
+&__select {
   color: #323E47;
   width: 100%;
   height: 48px;
-  font-family: Be Vietnam Pro;
   border-color: rgba(193, 197, 199, 1);
   border-width: 1px;
   padding-left: 18px;
@@ -249,21 +245,20 @@
   padding-right: 18px;
 }
 
-&-label--italic {
+&__label--italic {
   font-style: italic;
   font-weight: 200;
 }
-&-textarea {
+&__textarea {
   width: 100%;
   border: 1px rgba(193, 197, 199, 1) solid;
   height: 96px;
   padding: 14px 19px;
   font-size: 18px;
-  font-family: Be Vietnam Pro;
   border-radius: 10px;
   margin-top: 6px;
 }
-&-form-actions {
+&__form-actions {
   display: flex;
   position: relative;
   align-self: stretch;
@@ -271,7 +266,7 @@
   flex-shrink: 0;
   border-color: transparent;
 }
-&-form-legal {
+&__form-legal {
   display: flex;
   position: relative;
   flex-grow: 1;
@@ -286,12 +281,12 @@
   }
 }
 
-&-checkbox-wrapper {
+&__checkbox-wrapper {
   display: flex;
   align-items: center;
 }
 
-&-checkbox {
+&__checkbox {
   width: 19px;
   border: 1px rgba(193, 197, 199, 1) solid;
   height: 19px;
@@ -299,7 +294,7 @@
   border-radius: 4px;
 
 }
-&-checkbox-text {
+&__checkbox-text {
   color: rgb(98, 105, 111);
   cursor: pointer;
   width: auto;
@@ -309,7 +304,6 @@
   align-self: auto;
   font-style: Regular;
   text-align: left;
-  font-family: Be Vietnam Pro;
   font-weight: 400;
   line-height: 150%;
   font-stretch: normal;
@@ -319,13 +313,12 @@
     text-decoration: underline;
   }
 }
-&-button {
+&__button {
   color: #fff;
   width: 70%;
   cursor: pointer;
   font-size: 15px;
   text-align: center;
-  font-family: Be Vietnam Pro;
   padding-top: 14px;
   border-width: 0px;
   padding-left: 24px;

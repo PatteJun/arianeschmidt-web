@@ -38,7 +38,7 @@
     margin: 0;
   }
 
-  &-container {
+  &__container {
     max-width: 920px;
     width: 100%;
     display: flex;
@@ -64,7 +64,7 @@
     }
   }
 
-  &-content {
+  &__content {
     display: flex;
     position: relative;
     align-self: stretch;
@@ -74,7 +74,7 @@
     flex-direction: column;
   }
 
-  &-title {
+  &__title {
     color: rgba(255, 255, 255, 1);
     height: auto;
     font-size: 48px;
@@ -99,7 +99,7 @@
     }
   }
 
-  &-desc {
+  &__desc {
     color: rgb(193, 197, 199);
     height: auto;
     font-size: 18px;
@@ -118,7 +118,7 @@
     }
   }
 
-  &-actions {
+  &__actions {
     display: flex;
     position: relative;
     align-items: flex-start;
