@@ -1,0 +1,17 @@
+.workshop-banner {
+  position: relative;
+  z-index: -1;
+  height: 453px;
+
+  @include media-breakpoint-down(md) {
+    border-radius: 0 0 20px 20px;
+    overflow: hidden;
+    height: 285px;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
