@@ -1,0 +1,233 @@
+.app-banner {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transition: all 0.3s ease;
+
+  &.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &__container {
+    border-radius: 40px;
+    box-shadow: 0px 40px 80px 0px rgba(50, 62, 71, 0.15);
+  }
+
+  &__close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+  }
+
+  &__image-wrapper {
+    position: relative;
+    height: 217px;
+  }
+
+  &__img {
+    position: absolute;
+    width: 111%;
+    bottom: -29px;
+    left: -8%;
+
+    &--mobile {
+      display: none;
+    }
+
+  }
+
+  &__bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 40px 40px 0 0;
+    overflow: hidden;
+  }
+
+  &__close {
+    top: 3px;
+    svg {
+      width: 70px;
+      height: 70px;
+      min-width: 70px;
+    }
+
+  }
+
+  &__content {
+    padding: 18px 32px 32px;
+    background-color: white;
+    border-radius: 0 0 40px 40px;
+    overflow: hidden;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 15px;
+
+    svg {
+      min-width: 48px;
+      width: 48px;
+      height: 48px;
+    }
+  }
+
+  &__title {
+    color: #00A69C;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 125%;
+  }
+
+  &__desc {
+    color: #62696F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    margin-bottom: 26px;
+  }
+
+  &__actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  &__btn {
+    border-radius: 6px;
+    border: 1px solid #A6A6A6;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;
+  }
+  
+  @include media-breakpoint-down(sm) {
+    max-width: calc(100% - 40px);
+    margin-left: 20px;
+    &__container {
+      display: grid;
+      grid-template-columns: 104px 1fr;
+    }
+
+    &__close {
+      svg {
+        width: 52px;
+        height: 52px;
+      }
+    }
+
+    &__header {
+      gap: 8px;
+      margin-bottom: 8px;
+      svg {
+        width: 32px;
+        height: 32px;
+        min-width: 32px;
+      }
+    }
+
+    &__title {
+      font-size: 14px;
+    }
+
+    &__image-wrapper {
+      height: 100%;
+    }
+
+    &__bg {
+      border-radius: 20px 0 0 20px;
+    }
+
+    &__content {
+      padding: 16px;
+      border-radius: 0 0 20px 20px;
+    }
+
+    &__desc {
+      font-size: 12px;
+      line-height: 130%;
+      margin-bottom: 12px;
+    }
+
+    &__actions {
+      grid-template-columns: 1fr;
+      gap: 8px;
+    }
+
+    &__btn {
+      height: 35px;
+      padding: 0 10px;
+
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    &__img {
+      width: 105%;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 0;
+      left: auto;
+
+      &--desktop {
+        display: none;
+      }
+
+      &--mobile {
+        display: block;
+      }
+    }
+  }
+}
+
+.btn-open-banner {
+  border-radius: 50%;
+  box-shadow: 0px 10px 20px 0px rgba(50, 62, 71, 0.25);
+  overflow: hidden;
+  width: 70px;
+  height: 70px;
+  min-width: 70px;
+  background-color: white;
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.app-section {
+  position: fixed;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999999;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 1300px;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+
+  &.active {
+    opacity: 1;
+    visibility: visible;
+  }
+}
