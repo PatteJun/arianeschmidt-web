@@ -1,42 +1,44 @@
-@import './abstracts/mixins';
-@import './abstracts/variables';
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
 
-@import './base/base';
-@import './base/normalize';
+@import "./base/base";
+@import "./base/normalize";
 
-@import './components/navbar';
-@import './components/footer';
-@import './components/app-banner';
+@import "./components/navbar";
+@import "./components/footer";
+@import "./components/app-banner";
 
-@import './pages/homepage/homepage-main';
-@import './pages/homepage/homepage-hero';
-@import './pages/homepage/homepage-statement';
-@import './pages/homepage/homepage-features';
-@import './pages/homepage/homepage-quote';
-@import './pages/homepage/homepage-trust';
-@import './pages/homepage/homepage-details';
-@import './pages/homepage/homepage-areas';
-@import './pages/homepage/homepage-process';
-@import './pages/homepage/homepage-pricing';
-@import './pages/homepage/homepage-offer';
-@import './pages/homepage/homepage-cta';
+@import "./pages/homepage/homepage-main";
+@import "./pages/homepage/homepage-hero";
+@import "./pages/homepage/homepage-statement";
+@import "./pages/homepage/homepage-features";
+@import "./pages/homepage/homepage-quote";
+@import "./pages/homepage/homepage-trust";
+@import "./pages/homepage/homepage-details";
+@import "./pages/homepage/homepage-areas";
+@import "./pages/homepage/homepage-process";
+@import "./pages/homepage/homepage-pricing";
+@import "./pages/homepage/homepage-offer";
+@import "./pages/homepage/homepage-cta";
 
-@import './pages/contact/contact-main';
+@import "./pages/contact/contact-main";
 
-@import './pages/psychotherapy/psychotherapy-main';
-@import './pages/psychotherapy/psychotherapy-hero';
-@import './pages/psychotherapy/psychotherapy-propositions';
-@import './pages/psychotherapy/psychotherapy-areas';
-@import './pages/psychotherapy/psychotherapy-features';
-@import './pages/psychotherapy/psychotherapy-faq';
+@import "./pages/psychotherapy/psychotherapy-main";
+@import "./pages/psychotherapy/psychotherapy-hero";
+@import "./pages/psychotherapy/psychotherapy-propositions";
+@import "./pages/psychotherapy/psychotherapy-areas";
+@import "./pages/psychotherapy/psychotherapy-features";
+@import "./pages/psychotherapy/psychotherapy-faq";
 
-@import './pages/sources/sources';
-@import './pages/personal-data/personal-data';
+@import "./pages/sources/sources";
+@import "./pages/personal-data/personal-data";
 
-@import './pages/thank-you/thank-you';
+@import "./pages/thank-you/thank-you";
 
-@import './pages/workshop/workshop-hero';
-@import './pages/workshop/workshop-features';
-@import './pages/workshop/workshop-description';
-@import './pages/workshop/workshop-dates';
-@import './pages/workshop/workshop-banner';
+@import "./pages/workshop/workshop-hero";
+@import "./pages/workshop/workshop-features";
+@import "./pages/workshop/workshop-description";
+@import "./pages/workshop/workshop-dates";
+@import "./pages/workshop/workshop-banner";
+
+@import "./pages/app/app";

@@ -18,7 +18,7 @@
   }
 
   &__title {
-    color: #323E47;
+    color: #323e47;
     font-size: 46px;
     font-style: normal;
     font-weight: 500;
@@ -37,6 +37,19 @@
     right: 0;
 
     @include media-breakpoint-down(xxl) {
+      width: 100%;
+    }
+  }
+
+  &__btn {
+    width: 218px;
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+
+    letter-spacing: 0.75px;
+
+    @include media-breakpoint-down(md) {
       width: 100%;
     }
   }
