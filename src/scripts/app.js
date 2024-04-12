@@ -75,7 +75,7 @@ function initAccordion(accordion) {
   accordions.forEach((accordion, index) => {
     if (accordion.classList.contains("active")) {
       accordion.nextElementSibling.style.maxHeight =
-        accordion.nextElementSibling.scrollHeight + "px";
+        accordion.nextElementSibling.scrollHeight + 30 + "px";
     }
 
     accordion.addEventListener("click", () => {
