@@ -1,0 +1,135 @@
+.workshops-main {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 75px 20px 160px;
+
+  @include media-breakpoint-down(lg) {
+    padding: 35px 20px 60px;
+  }
+
+  &__header {
+    display: grid;
+    grid-template-columns: 1fr 1.15fr;
+    gap: 85px;
+    margin-bottom: 111px;
+
+    @include media-breakpoint-down(lg) {
+      grid-template-columns: 1fr;
+      gap: 32px;
+      margin-bottom: 50px;
+    }
+
+    @include media-breakpoint-down(md) {
+      gap: 24px;
+    }
+  }
+
+  &__title {
+    color: #323e47;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    @include media-breakpoint-down(md) {
+      font-size: 32px;
+    }
+  }
+
+  &__desc {
+    color: #62696f;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    padding-right: 37px;
+
+    @include media-breakpoint-down(lg) {
+      padding-right: 0;
+    }
+
+    @include media-breakpoint-down(md) {
+      font-size: 16px;
+    }
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+
+    @include media-breakpoint-down(lg) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @include media-breakpoint-down(md) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+.workshop-card {
+  position: relative;
+
+  @include media-breakpoint-down(md) {
+    display: grid;
+    grid-template-columns: 1fr auto;
+  }
+
+  &__link {
+    position: absolute;
+    inset: 0;
+  }
+
+  &__img {
+    width: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+    aspect-ratio: 1.36;
+    margin-bottom: 18px;
+
+    @include media-breakpoint-down(md) {
+      width: 98px;
+      height: auto;
+      margin-right: 20px;
+      border-radius: 18px;
+      margin-bottom: 0;
+    }
+  }
+
+  &__title {
+    color: #323e47;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    margin-bottom: 21px;
+
+    @include media-breakpoint-down(lg) {
+      font-size: 20px;
+    }
+
+    @include media-breakpoint-down(md) {
+      margin-bottom: 4px;
+      font-size: 16px;
+    }
+  }
+
+  &__desc {
+    color: #62696f;
+    font-size: 18px;
+    line-height: 150%;
+
+    @include media-breakpoint-down(lg) {
+      font-size: 15px;
+    }
+
+    @include media-breakpoint-down(md) {
+      font-size: 13px;
+    }
+  }
+}
