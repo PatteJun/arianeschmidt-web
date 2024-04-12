@@ -37,7 +37,7 @@
       font-size: 32px;
       margin-bottom: 54px;
     }
-  
+
     @include media-breakpoint-down(md) {
       font-size: 24px;
       margin-bottom: 38px;
@@ -57,7 +57,6 @@
 
   &__item {
     display: flex;
-    padding: 34px 0;
     position: relative;
     align-self: stretch;
     align-items: flex-start;
@@ -69,9 +68,10 @@
     border-left-width: 0px;
     border-right-width: 0px;
     border-bottom-width: 0px;
+    margin-bottom: 34px;
 
     @include media-breakpoint-down(lg) {
-      padding: 24px 0;
+      margin-bottom: 24px;
     }
   }
 
@@ -91,38 +91,56 @@
     line-height: 150%;
     font-stretch: normal;
     margin-right: 28px;
-    margin-bottom: 28px;
+    padding-top: 34px;
+    transition: all 0.3s ease;
+
+    &.active + .psychotherapy-faq__answer {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    &.active {
+      margin-bottom: 28px;
+    }
 
     @include media-breakpoint-down(lg) {
       font-size: 20px;
       margin-right: 0;
-      margin-bottom: 20px;
+      padding-top: 24px;
+
+      &.active {
+        margin-bottom: 20px;
+      }
     }
 
     @include media-breakpoint-down(md) {
       font-size: 16px;
-      margin-bottom: 16px;
+
+      &.active {
+        margin-bottom: 16px;
+      }
+    }
   }
+  &__answer {
+    color: rgba(98, 105, 111, 1);
+    height: auto;
+    font-size: 18px;
+    align-self: stretch;
+    text-align: left;
+    font-weight: 400;
+    line-height: 140%;
+    font-stretch: normal;
+    max-height: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
 
-}
-&__answer {
-  color: rgba(98, 105, 111, 1);
-  height: auto;
-  font-size: 18px;
-  align-self: stretch;
-  text-align: left;
-  font-family: Be Vietnam Pro;
-  font-weight: 400;
-  line-height: 139.9999976158142%;
-  font-stretch: normal;
+    @include media-breakpoint-down(lg) {
+      font-size: 16px;
+    }
 
-
-  @include media-breakpoint-down(lg) {
-    font-size: 16px;
-}
-
-@include media-breakpoint-down(md) {
+    @include media-breakpoint-down(md) {
       font-size: 14px;
+    }
   }
-}
 }
