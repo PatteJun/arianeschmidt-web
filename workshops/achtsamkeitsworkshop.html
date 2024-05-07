@@ -212,9 +212,10 @@
               <p>Ich benachrichtige dich gerne, wenn alternative Termine zur Verfügung stehen.</p>
             </div>
           </div>
-          <form action="" class="workshop-dates__form">
+          <form name="workshop_dates" action="/danke.html" netlify class="workshop-dates__form">
             <label for="email">Deine E-Mail Adresse</label>
-            <input type="email" id="email">
+            <input type="email" name="email" id="email" required>
+            <input type="hidden" name="workshop" value="Achtsamkeits-Workshop">
             <button type="submit" class="workshop-dates__submit">Benachrichtige mich</button>
           </form>
         </div>
