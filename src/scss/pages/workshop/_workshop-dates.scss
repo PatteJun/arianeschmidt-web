@@ -76,6 +76,15 @@
     }
   }
 
+  &__location {
+    font-size: 18px;
+    line-height:21px;
+    @include media-breakpoint-down(md) {
+      font-size: 14px;
+      line-height: 14px;
+    }
+  }
+
   &__date {
     color: white;
     display: flex;
