@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.arianeschmidt.de/index.html</loc>
+    <loc>https://www.arianeschmidt.de/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.arianeschmidt.de/app.html</loc>
+    <loc>https://www.arianeschmidt.de/app/</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.arianeschmidt.de/online-psychotherapie.html</loc>
+    <loc>https://www.arianeschmidt.de/online-psychotherapie/</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.arianeschmidt.de/impressum.html</loc>
+    <loc>https://www.arianeschmidt.de/impressum/</loc>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.arianeschmidt.de/datenschutz.html</loc>
+    <loc>https://www.arianeschmidt.de/datenschutz/</loc>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.arianeschmidt.de/danke.html</loc>
+    <loc>https://www.arianeschmidt.de/danke/</loc>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.arianeschmidt.de/kontakt.html</loc>
+    <loc>https://www.arianeschmidt.de/kontakt/</loc>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.arianeschmidt.de/workshops/index.html</loc>
+    <loc>https://www.arianeschmidt.de/workshops/</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.arianeschmidt.de/workshops/eat-embodiment-seminar-psychotherapeuten.html</loc>
+    <loc>https://www.arianeschmidt.de/workshops/eat-embodiment-seminar-psychotherapeuten/</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.arianeschmidt.de/workshops/achtsamkeitsworkshop.html</loc>
+    <loc>https://www.arianeschmidt.de/workshops/achtsamkeitsworkshop/</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.arianeschmidt.de/workshops/achtsamkeitskurs-koeln.html</loc>
+    <loc>https://www.arianeschmidt.de/workshops/achtsamkeitskurs-koeln/</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.arianeschmidt.de/workshops/achtsamkeit-retreat.html</loc>
+    <loc>https://www.arianeschmidt.de/workshops/achtsamkeit-retreat/</loc>
     <priority>0.6</priority>
   </url>
 </urlset>
